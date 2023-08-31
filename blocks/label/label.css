@@ -1,0 +1,25 @@
+.label {
+  box-sizing: border-box;
+  
+  height: 40px;
+  width: 40px;
+
+  display: flex;
+  align-items: center;
+
+  opacity: .7;
+  border-radius: 20px;
+
+  position: absolute;
+  cursor: pointer;
+  overflow: hidden;
+
+  transition: 
+    width .3s cubic-bezier(0.075, 0.82, 0.165, 1),
+    opacity .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+.label:hover {
+  opacity: .8;
+}

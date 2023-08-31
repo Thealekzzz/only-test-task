@@ -1,0 +1,7 @@
+.label__text {
+  color: white;
+  white-space: nowrap;
+  
+  transform: translateY(1px) translateX(40px);
+  position: absolute;
+}

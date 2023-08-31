@@ -1,0 +1,8 @@
+.label_extended {
+  padding-right: 15px;
+  opacity: 1;
+}
+
+.label_extended:hover {
+  opacity: 1;
+}

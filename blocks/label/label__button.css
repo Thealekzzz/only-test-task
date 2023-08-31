@@ -1,0 +1,51 @@
+.label__button {
+  min-width: 40px;
+  height: 40px;
+
+  padding: 0;
+  margin: 0;
+
+  background-color: inherit;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  position: relative;
+}
+
+.label__button::before, .label__button::after {
+  content: "";
+  position: absolute;
+
+  background-color: white;
+  z-index: 10;
+
+  transition: transform .6s cubic-bezier(0.075, 0.82, 0.165, 1);
+  
+}
+
+.label__button::before {
+  width: 2px;
+  height: 10px;
+
+}
+
+.label__button::after {
+  width: 10px;
+  height: 2px;
+
+}
+
+.label_extended .label__button::before {
+  transform: rotate(90deg);
+}
+
+.label_extended .label__button::after {
+  transform: rotate(180deg);
+}

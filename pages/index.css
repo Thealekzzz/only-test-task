@@ -1,0 +1,14 @@
+@import url(../vendor/normalize.css);
+
+
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/page__blackout.css);
+
+
+@import url(../blocks/label/label.css);
+@import url(../blocks/label/label_extended.css);
+@import url(../blocks/label/label_color_blue.css);
+@import url(../blocks/label/label_color_green.css);
+
+@import url(../blocks/label/label__text.css);
+@import url(../blocks/label/label__button.css);
